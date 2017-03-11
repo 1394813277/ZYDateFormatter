@@ -10,7 +10,7 @@ NSString *resultStr = [date stringWithCStyleFormatter:@"%G - %m - %d %H:%M:%S"];
 
 ###explain：
 
-![](https://github.com/1394813277/ZYDateFormatter/explain.png)
+![](https://github.com/1394813277/ZYDateFormatter/blob/master/ZYDateFormatter/explain.png)
 
 
 ###wechat number :fantastic_fan
