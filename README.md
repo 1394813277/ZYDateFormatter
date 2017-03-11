@@ -10,7 +10,7 @@ This extension is used to solve the problem of NSDateFormatter performance
 
 ###useage
 
-``` Objective C
+```Java
 NSDate *date = [NSDate date];
 NSString *resultStr = [date stringWithCStyleFormatter:@"%G - %m - %d %H:%M:%S"];
 ```
