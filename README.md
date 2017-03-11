@@ -1,19 +1,17 @@
 # ZYDateFormatter
 This extension is used to solve the problem of NSDateFormatter performance
 
-##useage
-
-
+###useage
 
 ``` Objective C
 NSDate *date = [NSDate date];
 NSString *resultStr = [date stringWithCStyleFormatter:@"%G - %m - %d %H:%M:%S"];
 ```
 
-explain：
+###explain：
 
-![Explain icon](https://github.com/1394813277/ZYDateFormatter/blob/master/explain.png)
+![Explain icon](https://github.com/1394813277/ZYDateFormatter/blob/master/explain.png?raw=true)
 
 
-#####wechat number :fantastic_fan
+###wechat number :fantastic_fan
 
