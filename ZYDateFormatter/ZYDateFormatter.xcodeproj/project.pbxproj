@@ -15,6 +15,7 @@
 		CBCE89101E73F3CA00D750D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCE890E1E73F3CA00D750D8 /* LaunchScreen.storyboard */; };
 		CBCE891B1E73F3CB00D750D8 /* ZYDateFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE891A1E73F3CB00D750D8 /* ZYDateFormatterTests.m */; };
 		CBCE89261E73F3CB00D750D8 /* ZYDateFormatterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE89251E73F3CB00D750D8 /* ZYDateFormatterUITests.m */; };
+		CBCE893B1E73F4D800D750D8 /* NSDate+ZYDDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE893A1E73F4D800D750D8 /* NSDate+ZYDDateFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CBCE89211E73F3CB00D750D8 /* ZYDateFormatterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYDateFormatterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCE89251E73F3CB00D750D8 /* ZYDateFormatterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYDateFormatterUITests.m; sourceTree = "<group>"; };
 		CBCE89271E73F3CB00D750D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCE89391E73F4D800D750D8 /* NSDate+ZYDDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZYDDateFormatter.h"; sourceTree = "<group>"; };
+		CBCE893A1E73F4D800D750D8 /* NSDate+ZYDDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZYDDateFormatter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		CBCE88F41E73F3CA00D750D8 = {
 			isa = PBXGroup;
 			children = (
+				CBCE89381E73F4D800D750D8 /* Extension */,
 				CBCE88FF1E73F3CA00D750D8 /* ZYDateFormatter */,
 				CBCE89191E73F3CB00D750D8 /* ZYDateFormatterTests */,
 				CBCE89241E73F3CB00D750D8 /* ZYDateFormatterUITests */,
@@ -138,6 +142,16 @@
 				CBCE89271E73F3CB00D750D8 /* Info.plist */,
 			);
 			path = ZYDateFormatterUITests;
+			sourceTree = "<group>";
+		};
+		CBCE89381E73F4D800D750D8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE89391E73F4D800D750D8 /* NSDate+ZYDDateFormatter.h */,
+				CBCE893A1E73F4D800D750D8 /* NSDate+ZYDDateFormatter.m */,
+			);
+			name = Extension;
+			path = ZYDateFormatter/Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +290,7 @@
 				CBCE89081E73F3CA00D750D8 /* ViewController.m in Sources */,
 				CBCE89051E73F3CA00D750D8 /* AppDelegate.m in Sources */,
 				CBCE89021E73F3CA00D750D8 /* main.m in Sources */,
+				CBCE893B1E73F4D800D750D8 /* NSDate+ZYDDateFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

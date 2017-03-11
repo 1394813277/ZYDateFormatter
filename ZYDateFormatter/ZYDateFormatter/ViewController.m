@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSDate+ZYDDateFormatter.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSDate *date = [NSDate date];
+    NSString *resultStr = [date stringWithCStyleFormatter:@"%G - %m - %d %H:%M:%S"];//use C Style date Formatter
+    NSLog(@"%@",resultStr);
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
