@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBCE89021E73F3CA00D750D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE89011E73F3CA00D750D8 /* main.m */; };
+		CBCE89051E73F3CA00D750D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE89041E73F3CA00D750D8 /* AppDelegate.m */; };
+		CBCE89081E73F3CA00D750D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE89071E73F3CA00D750D8 /* ViewController.m */; };
+		CBCE890B1E73F3CA00D750D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCE89091E73F3CA00D750D8 /* Main.storyboard */; };
+		CBCE890D1E73F3CA00D750D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCE890C1E73F3CA00D750D8 /* Assets.xcassets */; };
+		CBCE89101E73F3CA00D750D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCE890E1E73F3CA00D750D8 /* LaunchScreen.storyboard */; };
+		CBCE891B1E73F3CB00D750D8 /* ZYDateFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE891A1E73F3CB00D750D8 /* ZYDateFormatterTests.m */; };
+		CBCE89261E73F3CB00D750D8 /* ZYDateFormatterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE89251E73F3CB00D750D8 /* ZYDateFormatterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBCE89171E73F3CB00D750D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCE88F51E73F3CA00D750D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCE88FC1E73F3CA00D750D8;
+			remoteInfo = ZYDateFormatter;
+		};
+		CBCE89221E73F3CB00D750D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCE88F51E73F3CA00D750D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCE88FC1E73F3CA00D750D8;
+			remoteInfo = ZYDateFormatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBCE88FD1E73F3CA00D750D8 /* ZYDateFormatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYDateFormatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCE89011E73F3CA00D750D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBCE89031E73F3CA00D750D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBCE89041E73F3CA00D750D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBCE89061E73F3CA00D750D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBCE89071E73F3CA00D750D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBCE890A1E73F3CA00D750D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBCE890C1E73F3CA00D750D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBCE890F1E73F3CA00D750D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBCE89111E73F3CA00D750D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCE89161E73F3CB00D750D8 /* ZYDateFormatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYDateFormatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCE891A1E73F3CB00D750D8 /* ZYDateFormatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYDateFormatterTests.m; sourceTree = "<group>"; };
+		CBCE891C1E73F3CB00D750D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCE89211E73F3CB00D750D8 /* ZYDateFormatterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYDateFormatterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCE89251E73F3CB00D750D8 /* ZYDateFormatterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYDateFormatterUITests.m; sourceTree = "<group>"; };
+		CBCE89271E73F3CB00D750D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCE88FA1E73F3CA00D750D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCE89131E73F3CB00D750D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCE891E1E73F3CB00D750D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBCE88F41E73F3CA00D750D8 = {
+			isa = PBXGroup;
+			children = (
+				CBCE88FF1E73F3CA00D750D8 /* ZYDateFormatter */,
+				CBCE89191E73F3CB00D750D8 /* ZYDateFormatterTests */,
+				CBCE89241E73F3CB00D750D8 /* ZYDateFormatterUITests */,
+				CBCE88FE1E73F3CA00D750D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCE88FE1E73F3CA00D750D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE88FD1E73F3CA00D750D8 /* ZYDateFormatter.app */,
+				CBCE89161E73F3CB00D750D8 /* ZYDateFormatterTests.xctest */,
+				CBCE89211E73F3CB00D750D8 /* ZYDateFormatterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCE88FF1E73F3CA00D750D8 /* ZYDateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE89031E73F3CA00D750D8 /* AppDelegate.h */,
+				CBCE89041E73F3CA00D750D8 /* AppDelegate.m */,
+				CBCE89061E73F3CA00D750D8 /* ViewController.h */,
+				CBCE89071E73F3CA00D750D8 /* ViewController.m */,
+				CBCE89091E73F3CA00D750D8 /* Main.storyboard */,
+				CBCE890C1E73F3CA00D750D8 /* Assets.xcassets */,
+				CBCE890E1E73F3CA00D750D8 /* LaunchScreen.storyboard */,
+				CBCE89111E73F3CA00D750D8 /* Info.plist */,
+				CBCE89001E73F3CA00D750D8 /* Supporting Files */,
+			);
+			path = ZYDateFormatter;
+			sourceTree = "<group>";
+		};
+		CBCE89001E73F3CA00D750D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE89011E73F3CA00D750D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBCE89191E73F3CB00D750D8 /* ZYDateFormatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE891A1E73F3CB00D750D8 /* ZYDateFormatterTests.m */,
+				CBCE891C1E73F3CB00D750D8 /* Info.plist */,
+			);
+			path = ZYDateFormatterTests;
+			sourceTree = "<group>";
+		};
+		CBCE89241E73F3CB00D750D8 /* ZYDateFormatterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE89251E73F3CB00D750D8 /* ZYDateFormatterUITests.m */,
+				CBCE89271E73F3CB00D750D8 /* Info.plist */,
+			);
+			path = ZYDateFormatterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBCE88FC1E73F3CA00D750D8 /* ZYDateFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCE892A1E73F3CB00D750D8 /* Build configuration list for PBXNativeTarget "ZYDateFormatter" */;
+			buildPhases = (
+				CBCE88F91E73F3CA00D750D8 /* Sources */,
+				CBCE88FA1E73F3CA00D750D8 /* Frameworks */,
+				CBCE88FB1E73F3CA00D750D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYDateFormatter;
+			productName = ZYDateFormatter;
+			productReference = CBCE88FD1E73F3CA00D750D8 /* ZYDateFormatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBCE89151E73F3CB00D750D8 /* ZYDateFormatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCE892D1E73F3CB00D750D8 /* Build configuration list for PBXNativeTarget "ZYDateFormatterTests" */;
+			buildPhases = (
+				CBCE89121E73F3CB00D750D8 /* Sources */,
+				CBCE89131E73F3CB00D750D8 /* Frameworks */,
+				CBCE89141E73F3CB00D750D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCE89181E73F3CB00D750D8 /* PBXTargetDependency */,
+			);
+			name = ZYDateFormatterTests;
+			productName = ZYDateFormatterTests;
+			productReference = CBCE89161E73F3CB00D750D8 /* ZYDateFormatterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBCE89201E73F3CB00D750D8 /* ZYDateFormatterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCE89301E73F3CB00D750D8 /* Build configuration list for PBXNativeTarget "ZYDateFormatterUITests" */;
+			buildPhases = (
+				CBCE891D1E73F3CB00D750D8 /* Sources */,
+				CBCE891E1E73F3CB00D750D8 /* Frameworks */,
+				CBCE891F1E73F3CB00D750D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCE89231E73F3CB00D750D8 /* PBXTargetDependency */,
+			);
+			name = ZYDateFormatterUITests;
+			productName = ZYDateFormatterUITests;
+			productReference = CBCE89211E73F3CB00D750D8 /* ZYDateFormatterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCE88F51E73F3CA00D750D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "周洋";
+				TargetAttributes = {
+					CBCE88FC1E73F3CA00D750D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CBCE89151E73F3CB00D750D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBCE88FC1E73F3CA00D750D8;
+					};
+					CBCE89201E73F3CB00D750D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBCE88FC1E73F3CA00D750D8;
+					};
+				};
+			};
+			buildConfigurationList = CBCE88F81E73F3CA00D750D8 /* Build configuration list for PBXProject "ZYDateFormatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBCE88F41E73F3CA00D750D8;
+			productRefGroup = CBCE88FE1E73F3CA00D750D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCE88FC1E73F3CA00D750D8 /* ZYDateFormatter */,
+				CBCE89151E73F3CB00D750D8 /* ZYDateFormatterTests */,
+				CBCE89201E73F3CB00D750D8 /* ZYDateFormatterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCE88FB1E73F3CA00D750D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCE89101E73F3CA00D750D8 /* LaunchScreen.storyboard in Resources */,
+				CBCE890D1E73F3CA00D750D8 /* Assets.xcassets in Resources */,
+				CBCE890B1E73F3CA00D750D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCE89141E73F3CB00D750D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCE891F1E73F3CB00D750D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCE88F91E73F3CA00D750D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCE89081E73F3CA00D750D8 /* ViewController.m in Sources */,
+				CBCE89051E73F3CA00D750D8 /* AppDelegate.m in Sources */,
+				CBCE89021E73F3CA00D750D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCE89121E73F3CB00D750D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCE891B1E73F3CB00D750D8 /* ZYDateFormatterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCE891D1E73F3CB00D750D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCE89261E73F3CB00D750D8 /* ZYDateFormatterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBCE89181E73F3CB00D750D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCE88FC1E73F3CA00D750D8 /* ZYDateFormatter */;
+			targetProxy = CBCE89171E73F3CB00D750D8 /* PBXContainerItemProxy */;
+		};
+		CBCE89231E73F3CB00D750D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCE88FC1E73F3CA00D750D8 /* ZYDateFormatter */;
+			targetProxy = CBCE89221E73F3CB00D750D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBCE89091E73F3CA00D750D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCE890A1E73F3CA00D750D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBCE890E1E73F3CA00D750D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCE890F1E73F3CA00D750D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBCE89281E73F3CB00D750D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBCE89291E73F3CB00D750D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBCE892B1E73F3CB00D750D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYDateFormatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.ZYDateFormatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBCE892C1E73F3CB00D750D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYDateFormatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.ZYDateFormatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBCE892E1E73F3CB00D750D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYDateFormatterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.ZYDateFormatterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYDateFormatter.app/ZYDateFormatter";
+			};
+			name = Debug;
+		};
+		CBCE892F1E73F3CB00D750D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYDateFormatterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.ZYDateFormatterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYDateFormatter.app/ZYDateFormatter";
+			};
+			name = Release;
+		};
+		CBCE89311E73F3CB00D750D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYDateFormatterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.ZYDateFormatterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYDateFormatter;
+			};
+			name = Debug;
+		};
+		CBCE89321E73F3CB00D750D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYDateFormatterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.ZYDateFormatterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYDateFormatter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCE88F81E73F3CA00D750D8 /* Build configuration list for PBXProject "ZYDateFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCE89281E73F3CB00D750D8 /* Debug */,
+				CBCE89291E73F3CB00D750D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCE892A1E73F3CB00D750D8 /* Build configuration list for PBXNativeTarget "ZYDateFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCE892B1E73F3CB00D750D8 /* Debug */,
+				CBCE892C1E73F3CB00D750D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBCE892D1E73F3CB00D750D8 /* Build configuration list for PBXNativeTarget "ZYDateFormatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCE892E1E73F3CB00D750D8 /* Debug */,
+				CBCE892F1E73F3CB00D750D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBCE89301E73F3CB00D750D8 /* Build configuration list for PBXNativeTarget "ZYDateFormatterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCE89311E73F3CB00D750D8 /* Debug */,
+				CBCE89321E73F3CB00D750D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBCE88F51E73F3CA00D750D8 /* Project object */;
+}
